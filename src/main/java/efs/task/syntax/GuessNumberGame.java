@@ -107,12 +107,10 @@ public class GuessNumberGame {
             }
         }
 
-        if(guessAttempt < L)
-        {
+        if(guessAttempt < L) {
             System.out.println(UsefulConstants.CONGRATULATIONS);
         }
-        else
-        {
+        else {
             System.out.println(UsefulConstants.UNFORTUNATELY);
         }
     }
